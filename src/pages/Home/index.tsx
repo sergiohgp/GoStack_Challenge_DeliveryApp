@@ -36,10 +36,10 @@ const Home: React.FC = () => {
     >
       <Container>
         <Image source={Logo} />
-        <Title>Uma verdadeira experiência Italiana.</Title>
+        <Title>A true Italian experience.</Title>
       </Container>
       <NavigationButton onPress={() => handleNavigate()}>
-        <ButtonText>Entrar no Restaurant</ButtonText>
+        <ButtonText>Enter the Restaurant</ButtonText>
         <IconContainer>
           <Icon name="log-in" size={24} color="#7A1818" />
         </IconContainer>
